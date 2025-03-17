@@ -1,0 +1,26 @@
+.details-filling {
+  width: 100%;
+}
+
+.details-filling-cont {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 101px;
+  padding: 61px 81px;
+}
+@media screen and (max-width: 850px) {
+  .details-filling-cont {
+    display: grid;
+    grid-template-columns: 0.3fr 4fr;
+    grid-gap: 11px;
+    padding: 41px 31px;
+    padding-left: 11px;
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 1000px) {
+  .details-filling-cont {
+    grid-gap: 21px;
+    padding: 41px 41px;
+
+  }
+}
